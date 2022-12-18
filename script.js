@@ -25,7 +25,7 @@ canvas.add(new fabric.Rect({
   hasControls: false,
   hasBorders: false
 }));
-print("hello world")
+
 
 canvas.add(new fabric.Circle({ 
   left: 0, 
