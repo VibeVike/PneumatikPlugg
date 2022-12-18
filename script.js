@@ -1,5 +1,5 @@
 var canvas = new fabric.Canvas('c', { selection: false });
-var grid = 50;
+var grid =25;
 
 // create grid
 
