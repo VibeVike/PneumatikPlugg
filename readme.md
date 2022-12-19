@@ -1,2 +1,1 @@
-Allt detta är gjort för EE22A/B på karlfeldtsgymnasiet I Avesta
-Information må vara fel eftersom jag pluggar inom ämnet
+Got Bored and decided to code an entire website to study for one exam
