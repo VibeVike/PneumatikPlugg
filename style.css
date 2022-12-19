@@ -1,3 +1,14 @@
-canvas {
-  border: 1px solid #ccc;
+.buttons {
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 15px;	
+	display: block;
+}
+#zone {
+	width: 100vw;
+}
+canvas {	
+    border: 1px solid #ccc;
+	width: 100vw;
+	height: 100vh
 }
