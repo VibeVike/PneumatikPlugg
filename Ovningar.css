@@ -1,0 +1,81 @@
+.button-containers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-row1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    margin-bottom: 20px;
+    padding-top:10px; /* add this line */
+    padding-bottom:10px; /* add this line */
+}
+
+.button {
+    height: 15%;
+    width: 50%;
+    padding: 6px 14px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    border-radius: 6px;
+    border: none;
+    background: #2e2e2e;
+    color: #ffffff;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: transform 0.1s ease-in-out; /* add a transition */
+}
+
+.button:active {
+    transform: scale(1) !important;
+}
+
+.button:hover {
+    transform: scale(1.1); /* scale up the button by 10% when hovered */
+}
+
+.text {
+    color: rgb(0, 0, 0);
+    font-size:20px;
+    text-align:center;
+    width:80%;
+}
+
+header {
+    background-color: rgb(180, 180, 180);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    padding: 0 5px;
+}
+
+header nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: rgb(48, 48, 48);
+}

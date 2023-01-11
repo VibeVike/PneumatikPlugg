@@ -1,0 +1,53 @@
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: column; /* add this */
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    text-align: center;
+}
+
+.container.left {
+    right: 50%;
+}
+
+.container.right {
+    left: 50%;
+}
+
+
+.button {
+    height: 15%;
+    width: 50%;
+    padding: 6px 14px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    border-radius: 6px;
+    border: none;
+    background: #2e2e2e;
+    color: #ffffff;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: transform 0.1s ease-in-out; /* add a transition */
+}
+
+.button:active {
+    transform: scale(1) !important;
+}
+
+.button:hover {
+    transform: scale(1.1); /* scale up the button by 10% when hovered */
+}
+
+body {
+    background-color: #ffffff;
+}
+
+p {
+      color: rgb(0, 0, 0);
+      width: 50%
+}

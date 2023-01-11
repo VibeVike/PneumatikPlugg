@@ -1,0 +1,26 @@
+<head>
+  <title>Automation Plugg</title>
+  <!-- Include links to multiple CSS files in the head -->
+  <link rel="stylesheet" href="HomeStyle.css">
+</head>
+
+<body>
+
+<div class="container left">
+  <button onclick="redirectToCanvas()" class="button button-left">Freemode</button>
+  <p>Fritt läge, sätt upp vad du vill och spara det!</p>
+</div>
+
+<div class="container right">
+  <button onclick="redirectToOvningar()" class="button button-right">Övningar</button>
+  <p>Övingar ifrån pärmen, repitions uppgiffter, egna övningar och teori övningar.</p>
+</div>
+
+<script>
+function redirectToCanvas() {
+  window.location.href = 'Canvas.html';
+}
+function redirectToOvningar() {
+  window.location.href = 'ovningar.html';
+}
+</script>

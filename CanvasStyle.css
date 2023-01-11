@@ -1,0 +1,18 @@
+.buttons {
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+}
+
+#zone {
+	width: 100vw;
+}
+canvas {
+    border: 1px solid #ccc;
+	width: 100vw;
+	height: 100vh
+}
+
+body {
+    background-color: #fff;
+}

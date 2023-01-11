@@ -1,0 +1,44 @@
+<div class="buttons">
+  <button id="addnew">Add</button>
+  <select ThingToAdd="Item" id="ThingToAdd">
+    <option value="5_2">5/2 Ventil</option>
+    <option value="3_2">3/2 Ventil</option>
+    <option value="DB">Dubbel Cylinder</option>
+    <option value="Fjad_DB">Dubbel Cylinder Med Fjäder Retur</option>
+    <option value="EM">Elektro magnet Vänster</option>
+    <option value="EM_2">Elektro magnet Höger</option>
+    <option value="Fjad">Fjäder</option>
+    <option value="Luft_Inp">Luft Input</option>
+    <option value="Linje">Linje</option>
+  </select>
+  <button id="delete">Clear All</button>
+  <button id="export">Export</button>
+  <button id="import">Import</button>
+  <label>
+    <label for="Lines">Rita Linjer</label>
+    <input type="checkbox" id="Lines">
+    <!-- <label for="Lines">Delete Tool</label> -->
+    <!-- <input type="checkbox" id="DeleteTool"> -->
+</div>
+
+<textarea id="zone" rows="5"></textarea>
+<canvas id="c"></canvas>
+
+<html>
+
+<head>
+  <title>Automation Plugg</title>
+
+  <!-- Include links to multiple CSS files in the head -->
+  <link rel="stylesheet" href="CanvasStyle.css">
+</head>
+
+<body>
+  <!-- Page content goes here -->
+
+  <!-- Include the script at the bottom of the body -->
+  <script src="fabric.js"></script>
+  <script src="CanvasScript.js"></script>
+</body>
+
+</html>
